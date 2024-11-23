@@ -17,7 +17,7 @@ document.getElementById("username").addEventListener("keyup",(e)=>{
        
        
         function email(data){
-           const pattern=/.{8}(@gmail\.com)$/
+           const pattern=/.{4}(@gmail\.com)$/
            return pattern.test(data)
         } 
 
